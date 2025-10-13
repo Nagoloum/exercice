@@ -1,0 +1,15 @@
+Git est un système de gestion de versions.
+Il permet de suivre toutes les modifications apportées à un projet, de travailler à plusieurs sans se marcher dessus, et de revenir à n’importe quelle version du code.
+
+🔹 Créé par Linus Torvalds (le créateur de Linux)
+🔹 Utilisé dans presque tous les projets professionnels (souvent avec GitHub, GitLab ou Bitbucket)
+
+Objectif :
+
+Sauvegarder l’évolution du projet
+
+Travailler en équipe de façon organisée
+
+Gérer différentes versions (branches)
+
+Synchroniser le code entre local et distant (GitHub)
