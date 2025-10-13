@@ -1,3 +1,5 @@
+📘 Chapitre 1 — Les bases et le fonctionnement de Git
+
 Un projet Git passe par 3 zones principales :
 
 Zone	Description	Commande clé
