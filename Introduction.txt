@@ -1,3 +1,5 @@
+🧩 Introduction — Comprendre Git et son utilité
+
 Git est un système de gestion de versions.
 Il permet de suivre toutes les modifications apportées à un projet, de travailler à plusieurs sans se marcher dessus, et de revenir à n’importe quelle version du code.
 
