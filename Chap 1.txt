@@ -1,0 +1,17 @@
+📘 Chapitre 1 — Les bases et le fonctionnement de Git
+
+Un projet Git passe par 3 zones principales :
+
+Zone	Description	Commande clé
+Working Directory	Tes fichiers sur ton PC	git add
+Staging Area	Les fichiers prêts à être sauvegardés	git commit
+Repository (local)	La base de données Git sur ton PC	
+Repository (distant)	Le dépôt sur GitHub	git push
+
+Commandes principales pour sauvegarder ton travail :
+
+git init                # Initialise un nouveau dépôt
+git add .               # Ajoute tous les fichiers modifiés à la zone de préparation
+git commit -m "Message" # Sauvegarde les fichiers dans l’historique local
+git push origin main    # Envoie les commits sur GitHub
+git pull origin main    # Récupère les mises à jour du dépôt distant
