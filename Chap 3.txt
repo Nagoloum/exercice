@@ -1,0 +1,28 @@
+⚔️ Chapitre 3 — Les merge conflicts et leur résolution
+
+Un merge conflict se produit quand deux branches modifient la même ligne d’un même fichier.
+Git ne sait pas laquelle garder.
+
+Exemple :
+
+<<<<<<< HEAD
+console.log("Bonjour");
+=======
+console.log("Salut");
+>>>>>>> feature-accueil
+
+
+Git t’indique les deux versions.
+👉 Tu dois choisir manuellement celle à garder (ou les fusionner), puis :
+
+git add fichier_conflit.js
+git commit -m "Résolution du conflit"
+
+
+Bonnes pratiques pour éviter les conflits :
+
+Toujours faire git pull avant de commencer à coder
+
+Communiquer avec ton équipe
+
+Fusionner régulièrement pour ne pas accumuler trop de différences

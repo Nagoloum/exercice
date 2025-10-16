@@ -1,0 +1,15 @@
+🌿 Chapitre 2 — Les branches et le travail collaboratif
+
+Les branches permettent de travailler sur plusieurs versions du projet en parallèle (ex: développement, test, production).
+
+Commandes principales :
+
+git branch                  # Liste les branches existantes
+git branch nouvelle-branche # Crée une nouvelle branche
+git checkout nouvelle-branche  # Change de branche
+git switch main             # Revient sur la branche principale
+git merge nouvelle-branche  # Fusionne une branche dans une autre
+
+
+Exemple :
+Tu es sur main, tu veux tester une nouvelle fonctionnalité → crée une branche feature-login → après test, fusionne-la avec main.
